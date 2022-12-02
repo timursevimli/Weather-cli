@@ -1,0 +1,25 @@
+{
+  "name": "weather-cli-alesko",
+  "version": "1.0.1",
+  "description": "Weather CLI",
+  "main": "weather.js",
+  "bin": {
+    "weather": "weather.js"
+  },
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "weather",
+    "weathercli",
+    "nodejs"
+  ],
+  "author": "Timur Sevimli",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.27.2",
+    "chalk": "^5.0.1",
+    "dedent-js": "^1.0.1"
+  }
+}
